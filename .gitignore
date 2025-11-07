@@ -1,0 +1,47 @@
+# ---> Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+.venv/
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# PyCharm & VSCode
+.idea/
+.vscode/
+
+# Distribution / Packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+*.manifest
+*.spec
+
+# Logs and Databases
+*.log
+*.sqlite3
+*.db
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Backup files
+*~
+*.bak
+*.tmp
+
+# Pygame compiled objects
+*.pyo
+*.exe
+*.dll
+
+# Test or scratch files
+scratch/
+temp/
