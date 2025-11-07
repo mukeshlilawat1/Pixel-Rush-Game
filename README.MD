@@ -1,13 +1,14 @@
 # 🎮 Pixel Rush
 
 <p align="center">
-  <img src="https://img.shields.io/github/stars/mukeshlilawat1/Pixel-Rush?style=social" alt="GitHub Stars" />
-  <img src="https://img.shields.io/github/forks/mukeshlilawat1/Pixel-Rush?style=social" alt="GitHub Forks" />
-  <img src="https://img.shields.io/github/last-commit/mukeshlilawat1/Pixel-Rush" alt="Last Commit" />
-  <img src="https://img.shields.io/github/languages/top/mukeshlilawat1/Pixel-Rush" alt="Top Language" />
-  <img src="https://img.shields.io/github/issues/mukeshlilawat1/Pixel-Rush" alt="Open Issues" />
-  <img src="https://img.shields.io/github/license/mukeshlilawat1/Pixel-Rush" alt="License" />
+  <img src="https://img.shields.io/github/stars/mukeshlilawat1/Pixel-Rush-Game?style=social" alt="GitHub Stars" />
+  <img src="https://img.shields.io/github/forks/mukeshlilawat1/Pixel-Rush-Game?style=social" alt="GitHub Forks" />
+  <img src="https://img.shields.io/github/last-commit/mukeshlilawat1/Pixel-Rush-Game" alt="Last Commit" />
+  <img src="https://img.shields.io/github/languages/top/mukeshlilawat1/Pixel-Rush-Game" alt="Top Language" />
+  <img src="https://img.shields.io/github/issues/mukeshlilawat1/Pixel-Rush-Game" alt="Open Issues" />
+  <img src="https://img.shields.io/github/license/mukeshlilawat1/Pixel-Rush-Game" alt="License" />
 </p>
+
 
 ---
 
