@@ -7,9 +7,18 @@ pygame.init()
 screen = pygame.display.set_mode((800, 400))
 pygame.display.set_caption("Pixel Rush")
 clock = pygame.time.Clock()
+test_font = pygame.font.Font('font/Pixeltype.ttf', 50)
 
-sky_Surface = pygame.image.load('graphics/Sky.png')
-ground_Surface = pygame.image.load('graphics/ground.png')
+
+sky_Surface = pygame.image.load('graphics/Sky.png').convert()
+ground_Surface = pygame.image.load('graphics/ground.png').convert()
+text_surface = test_font.render('Pixel Rush', False, 'Black')
+
+
+#snail setup
+snail_surface = pygame.image.load('graphics/snail/snail1.png').convert_alpha()
+snail_x_pos = 600
+
 
 #main game loop
 while True:
@@ -18,8 +27,18 @@ while True:
             pygame.quit()
             exit()
 
-    screen.blit(ground_Surface, (0,0))
-    screen.blit(sky_Surface, (0,0))
+
+    screen.blit(sky_Surface, (0, 0))
+    screen.blit(ground_Surface, (0,300))
+    screen.blit(text_surface, (300, 50))
+
+    #move snail left by 4 pixel each frame
+    snail_x_pos -= 4
+
+    if snail_x_pos < -100:
+        snail_x_pos = 800
+
+    screen.blit(snail_surface, (snail_x_pos,250))
     #draw all our elements
     #update everything
     pygame.display.update()
