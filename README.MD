@@ -64,7 +64,7 @@ Pixel-Rush/
 ## 🖥️ Installation & Setup
 
 **1️⃣ Clone the Repository**  
-git clone https://github.com/<your-username>/Pixel-Rush.git  
+git clone https://github.com/<mukeshlilawat1>/Pixel-Rush.git  
 cd Pixel-Rush  
 
 **2️⃣ Install Dependencies**  
