@@ -11,7 +11,8 @@ test_font = pygame.font.Font('font/Pixeltype.ttf', 50)
 
 sky_Surface = pygame.image.load('graphics/Sky.png').convert()
 ground_Surface = pygame.image.load('graphics/ground.png').convert()
-text_surface = test_font.render('Pixel Rush', False, 'Black')
+score_surface = test_font.render('Pixel Rush', False, (64,64,64))
+score_rectangle = score_surface.get_rect(center = (400, 50))
 
 #snail setup
 snail_surface = pygame.image.load('graphics/snail/snail1.png').convert_alpha()
@@ -33,7 +34,9 @@ while True:
 
     screen.blit(sky_Surface, (0, 0))
     screen.blit(ground_Surface, (0,300))
-    screen.blit(text_surface, (300, 50))
+    pygame.draw.rect(screen, '#c0e8ec', score_rectangle)
+    pygame.draw.rect(screen, '#c0e8ec', score_rectangle,10)
+    screen.blit(score_surface, score_rectangle)
 
     snail_rectangle.x -= 4
 
